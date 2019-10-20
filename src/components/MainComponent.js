@@ -8,20 +8,7 @@ class MainComponent extends Component {
     constructor(props){
         super(props)
         this.state = {
-            courses: [
-                {
-                    id: 1,
-                    name: 'React',
-                    category: 'JavaScript',
-                    image: 'https://i0.wp.com/storage.googleapis.com/blog-images-backup/1*3SVfBkNZI2f-sspiq59xcw.png?resize=391%2C321&ssl=1'
-                },
-                {
-                    id: 2,
-                    name: 'Angular',
-                    category: 'JavaScript',
-                    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2MVpIGFzfjAAwoiVLfHO3XBZzBV2u1Uzy1zWs40RutcCTNTW2&s'
-                }
-            ]
+            courses: []
         }
         this.remove = this.remove.bind(this);
         this.add = this.add.bind(this);
